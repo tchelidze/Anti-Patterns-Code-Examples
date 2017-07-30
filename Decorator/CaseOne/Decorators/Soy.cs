@@ -6,7 +6,7 @@
         { }
 
         public override string Describe()
-            => $"{Beverage.Describe()} with Soy";
+            => $"{Beverage.Describe()} with HorizontalScrollBarDecorator";
 
         public override decimal Cost() => Beverage.Cost() + 0.2m;
     }

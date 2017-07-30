@@ -1,0 +1,2 @@
+﻿Case One is based on https://www.youtube.com/watch?v=GCraGHx6gso&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc&index=3
+Case Two is based on https://sourcemaking.com/design_patterns/decorator

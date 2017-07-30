@@ -1,4 +1,4 @@
-﻿namespace Decorator
+﻿namespace Decorator.CaseOne
 {
     public class Decaf : Beverage
     {
