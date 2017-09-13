@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace The.Blob.Problem
+namespace The.Blob.CaseOne.Problem
 {
     public class Order
     {

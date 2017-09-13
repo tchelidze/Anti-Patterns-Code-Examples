@@ -1,4 +1,4 @@
-﻿namespace The.Blob.Problem
+﻿namespace The.Blob.CaseOne.Solution
 {
     public class OrderItem
     {

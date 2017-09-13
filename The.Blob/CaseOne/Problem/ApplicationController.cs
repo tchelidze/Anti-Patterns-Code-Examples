@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Linq;
 
-namespace The.Blob.Problem
+namespace The.Blob.CaseOne.Problem
 {
     /// <summary>
     /// The Blob
+    /// class incorporates logic related to other entities
+    ///ex: in AddProductToOrder method, it  applies rule "Two Product with the same id should not exists in Order", that logic is part of "Order" object's knowledge. 
     /// </summary>
     public class ApplicationController
     {
@@ -14,6 +16,7 @@ namespace The.Blob.Problem
 
         public bool CheckUserPassword(string password) => User.Password == password;
 
+        // ApplicationController applies rules to password that naturally is part of `User`
         public void ChangeUserPassword(string oldPassword, string newPassword)
         {
             var isValidPassword = CheckUserPassword(oldPassword);

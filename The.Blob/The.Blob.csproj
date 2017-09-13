@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Solution\" />
+    <Folder Include="..\..\%2528Anti%2529 Patterns Code Examples\The.Blob\CaseOne\Solution\" />
+    <Folder Include="CaseOne\Solution\" />
   </ItemGroup>
 
 </Project>
