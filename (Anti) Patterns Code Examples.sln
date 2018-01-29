@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "The.Blob", "Software Development AntiPatterns\The.Blob\The.Blob.csproj", "{2ED3774E-5A92-4EEA-AC3D-E19BD6133107}"
 EndProject
@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Creational\Build
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "Creational\Factory Method\FactoryMethod.csproj", "{373D2A71-27C2-4F48-B9FF-D58A4A148F94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Creational\Prototype\Prototype.csproj", "{A3868A42-7048-4F69-95F3-CC43FD007278}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Creational\Prototype\Prototype.csproj", "{A3868A42-7048-4F69-95F3-CC43FD007278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object Pool", "Object Pool\Object Pool.csproj", "{B504495B-1739-4E22-941F-FAEDCBA86B76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,10 @@ Global
 		{A3868A42-7048-4F69-95F3-CC43FD007278}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3868A42-7048-4F69-95F3-CC43FD007278}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3868A42-7048-4F69-95F3-CC43FD007278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B504495B-1739-4E22-941F-FAEDCBA86B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B504495B-1739-4E22-941F-FAEDCBA86B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B504495B-1739-4E22-941F-FAEDCBA86B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B504495B-1739-4E22-941F-FAEDCBA86B76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +91,7 @@ Global
 		{0D1D8988-AFC5-4E59-BB97-5DD42130F9A6} = {0A2E4B98-8626-4B08-84EF-C479A6F04065}
 		{373D2A71-27C2-4F48-B9FF-D58A4A148F94} = {0A2E4B98-8626-4B08-84EF-C479A6F04065}
 		{A3868A42-7048-4F69-95F3-CC43FD007278} = {0A2E4B98-8626-4B08-84EF-C479A6F04065}
+		{B504495B-1739-4E22-941F-FAEDCBA86B76} = {0A2E4B98-8626-4B08-84EF-C479A6F04065}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {347D466C-8066-44A5-9E44-4A2083471E44}
